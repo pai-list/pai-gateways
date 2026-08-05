@@ -1,0 +1,37 @@
+{
+  "name": "@pai/gateways",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev:gateway": "wrangler dev -c wrangler.gateway.jsonc",
+    "dev:mcp": "wrangler dev -c wrangler.mcp.jsonc",
+    "deploy:gateway": "wrangler deploy -c wrangler.gateway.jsonc",
+    "deploy:mcp": "wrangler deploy -c wrangler.mcp.jsonc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@axiomid/crypto": "^0.1.0",
+    "@axiomid/sdk": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "@pai/identity": "^0.1.0",
+    "@pai/verify": "^0.1.0",
+    "@pai/wallet": "^0.1.0",
+    "hono": "^4.6.5",
+    "jose": "^5.6.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241106.0",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0",
+    "wrangler": "^3.60.0"
+  },
+  "engines": { "node": ">=20.0.0" }
+}

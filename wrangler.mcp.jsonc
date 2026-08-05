@@ -1,0 +1,8 @@
+{
+  "name": "pai-mcp",
+  "main": "src/mcp/index.ts",
+  "compatibility_date": "2026-07-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "durable_objects": {},
+  "migrations": []
+}
