@@ -13,12 +13,12 @@
     "lint": "eslint src --ext .ts"
   },
   "dependencies": {
-    "@axiomid/crypto": "^0.1.0",
-    "@axiomid/sdk": "^0.1.0",
+    "@axiomid/crypto": "workspace:*",
+    "@axiomid/sdk": "workspace:*",
     "@modelcontextprotocol/sdk": "^1.16.0",
-    "@pai/identity": "^0.1.0",
-    "@pai/verify": "^0.1.0",
-    "@pai/wallet": "^0.1.0",
+    "@pai/identity": "workspace:*",
+    "@pai/verify": "workspace:*",
+    "@pai/wallet": "workspace:*",
     "hono": "^4.6.5",
     "jose": "^5.6.3",
     "zod": "^3.23.8"
