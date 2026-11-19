@@ -16,7 +16,7 @@
  *
  * Usage:
  *   npx @pai/mcp
- *   # or add to Claude Code / Hermes MCP config:
+ *   # or add to Claude Code / PAI MCP config:
  *   pai-mcp as command
  */
 
